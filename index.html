@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Agregar Personas</h1>
+  <section class="crud">
+    <article>
+      <h2 class="crud-title">Agregar a Lista</h2>
+      <form class="crud-form">
+        <input type="text" name="nombre" placeholder="Nombre" required pattern="[a-zA-Z]+"><br>
+        <br>
+        <input type="text" name="apellido" placeholder="Apellido" required pattern="[a-zA-Z]+"><br>
+        <br>
+        <input type="text" name="localidad" placeholder="Localidad" ><br>
+        <br>
+        <input type="submit"  value="Agregar">
+        <br>
+        <input type="hidden" name="id">
+      </form>
+    </article>
+    <article>
+      <h2>Ver Listas</h2>
+      <table class="crud-table">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Localidad</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+
+        </tbody>
+      </table>
+    </article>
+  </section>
+  <template id="crud-template">
+    <tr class="template">
+      <td class="Id"></td>
+      <td class="Nombre"></td>
+      <td class="Apellido"></td>
+      <td class="Localidad"></td>
+      <td>
+        <button class="edit">Editar</button>
+        <button class="delete">Eliminar</button>
+      </td>
+    </tr>
+  </template>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="axion.js" ></script>
+</body>
+
+</html>

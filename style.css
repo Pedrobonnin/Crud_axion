@@ -1,0 +1,103 @@
+body{
+    width: auto;
+    height: auto;
+    position: relative; 
+    background-image: radial-gradient(rgba(3, 85, 85, 0.568), #01332f );     
+}
+
+.crud{
+    text-align: center;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    
+}
+.crud-form {
+    margin: 0 auto;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+input{
+    width: 95%;
+    border: 2px solid seashell;
+    outline: none;
+    border-radius: 5px;
+    color: #000;
+    background-color: rgba(0, 255, 255, 0.685);
+    font-size: 16px;
+    text-align: center;
+    
+}
+input:hover{
+    border: 2px solid; 
+    background-color: rgba(9, 175, 175, 0.685);
+}
+
+.crud-table{
+    text-align: center;
+    color: #fff;
+    line-height: auto;
+    font-size: 20px;
+    border-collapse: collapse;     
+}
+.crud-table th{
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.568);
+    border: 1px solid;
+    color: #fff;
+    width: 500px; 
+    border: 1px solid;  
+}
+.crud-table th:hover {
+    background-color: aqua;
+    color: #000;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    line-height: auto;
+}
+
+.tbody{
+    text-align: center;
+    color: #fff;
+    line-height: auto;
+}
+
+.template:hover{
+    background-color: rgb(5, 170, 170);
+    color: black;
+}
+
+.edit{
+    background-color: aqua;
+    border: 2px solid rgb(2, 111, 155);
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+.edit:hover{
+    background-color: rgb(4, 126, 126);
+    border: 2px solid rgb(6, 255, 60);
+    color: oldlace;
+}
+.delete{
+    background-color: aqua;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid rgb(2, 111, 155);
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+.delete:hover{
+    background-color: rgb(4, 126, 126);
+    border: 2px solid rgb(202, 2, 2);
+    color: oldlace;
+}
+::placeholder { color: rgba(255, 255, 255, 0.733); }
+

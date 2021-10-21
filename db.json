@@ -1,0 +1,98 @@
+{
+  "personas": [
+    {
+      "nombre": "Pedro",
+      "apellido": "Bonnin",
+      "localidad": "Villa elisa",
+      "id": 1
+    },
+    {
+      "nombre": "Quentin ",
+      "apellido": " Tarantino",
+      "localidad": "Knoxville",
+      "id": 2
+    },
+    {
+      "nombre": "Woody ",
+      "apellido": "Allen",
+      "localidad": " Brooklyn",
+      "id": 3
+    },
+    {
+      "nombre": "Martin ",
+      "apellido": "Scorsese",
+      "localidad": "Flushing",
+      "id": 4
+    },
+    {
+      "nombre": "Guillermo",
+      "apellido": "Del Toro",
+      "localidad": "Guadalajara",
+      "id": 5
+    },
+    {
+      "nombre": "Charles ",
+      "apellido": " Chaplin",
+      "localidad": " Walworth",
+      "id": 6
+    },
+    {
+      "nombre": "Adolfo",
+      "apellido": "Aristarain",
+      "localidad": "Parque Chas",
+      "id": 7
+    },
+    {
+      "nombre": "Juan José",
+      "apellido": "Campanella",
+      "localidad": "Buenos Aires",
+      "id": 8
+    },
+    {
+      "nombre": "Fernando Ayala",
+      "apellido": " Ayala",
+      "localidad": "Gualeguay",
+      "id": 9
+    },
+    {
+      "nombre": "Luis",
+      "apellido": "Buñuel",
+      "localidad": "Calanda",
+      "id": 10
+    },
+    {
+      "nombre": "Penélope",
+      "apellido": "Cruz",
+      "localidad": "Alcobendas",
+      "id": 11
+    },
+    {
+      "nombre": "Antonio Banderas",
+      "apellido": "Banderas",
+      "localidad": "Málaga",
+      "id": 12
+    },
+    {
+      "nombre": "Steven",
+      "apellido": "Spielberg",
+      "localidad": "Cincinnati",
+      "id": 13
+    },
+    {
+      "nombre": "Tim ",
+      "apellido": "Burton",
+      "localidad": "Burbank",
+      "id": 14
+    }
+  ],
+  "Autos": [
+    {
+      "id": 1,
+      "nombre": "Audi"
+    },
+    {
+      "id": 2,
+      "nombre": "Fiat"
+    }
+  ]
+}
